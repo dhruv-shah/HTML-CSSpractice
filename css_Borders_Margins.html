@@ -1,0 +1,34 @@
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http[://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<style type="text/css">
+	borders {background-color: aqua;
+		padding: 1px; <!-- px is ultra imp/.. doesnt work without -->
+		border-color: red;  <!-- ALL BORDER PROPERTIES: possible indepently for any side... purpose: imagine the need to underline an area etc.. or mark a region.! -->
+		width:40%;
+		border-width:4px;
+		margin: 8px;
+		border-style:outset; <!-- allowed values: none|hidden|dotted|dashed|solid|double|groove (bevel-type)|ridge (another bevel, ulta)|inset(3D in)|outset (3D out)|initial|inherit ? -->
+	}
+	 p {text-indent: 100px;
+	 	border: 2px dotted black;
+	 	
+	 	} <!-- IMPORTANT NOTE: text-indent does not work with inline elements.. must be used with say p or body etc... -->
+	 margins {
+
+	 	margin: 3px;}
+		
+	</style>
+</head>
+<body>
+<p> 
+<borders>
+An arbit kuch to bhi line of text just to see border properties..... not too hard you see!</borders></p>
+<p>
+	<margins>
+Another paragraph, this time to actually check the margins and other features... 
+	</margins></p>
+</body>
+</html>
